@@ -2,7 +2,7 @@
 <!-- Github Link -->
 https://github.com/Ranvir-git/AppreciateProject
 <!-- Live Link -->
-https://appreciate-project.vercel.app/login
+https://appreciate-project.vercel.app/
 
 
 The Fruit.Ai website is an interactive platform where users can explore different services related to fruit orders and information. It is built using React.js, Tailwind CSS, and JavaScript for the frontend, while Python powers the backend.
