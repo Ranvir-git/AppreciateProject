@@ -17,7 +17,7 @@ const Translate = () => {
       </h1>
       <div className="flex justify-between gap-4">
         <div className="flex-1">
-          <div className="flex pb-4 justify-between">
+          <div className="flex flex-col md:flex-row pb-4 justify-between">
             <h2>Translate from</h2>
             <select name="from" onChange={(e) => setFrom(e.target.value)}>
               <option value="">Select language</option>
@@ -33,7 +33,7 @@ const Translate = () => {
           ></textarea>
         </div>
         <div className="flex-1">
-          <div className="flex justify-between pb-4">
+          <div className="flex flex-col md:flex-row justify-between pb-4">
             <h2>Translate to</h2>
             <select name="to" onChange={(e) => setTo(e.target.value)}>
               <option value="">Select language</option>
